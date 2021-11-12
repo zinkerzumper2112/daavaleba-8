@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #ffffff
+  }
+  
+  th {
+    background-color: #0087ff;
+    color: #ffffff;
+  }
+  
+  .container{
+      width: 700px;
+      margin: 100px auto;
+  }
+  
+  form div label{
+    width:100%;
+    display: inline-block;
+}
+form div{
+    margin-right:20px
+}
+form{
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.actions{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.actions form{
+  margin: 0;
+}
+.actions a{
+  text-decoration: none;
+  color: #000000;
+}
+.actions a:hover{
+  color: #0000fa;
+}
